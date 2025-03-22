@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import pickle
 
-import sklearn
 
 # Définir un mot de passe (remplace "monmotdepasse" par le tien)
 PASSWORD = "monmotdepasse"
