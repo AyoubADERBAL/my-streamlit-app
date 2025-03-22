@@ -21,7 +21,14 @@ else:
     st.error("Mot de passe incorrect ❌")
     st.stop()  # Bloque l'accès au reste de l'application
 
-model = pickle.load(open('model.pkl','rb'))
+try:
+    with open('model.pkl', 'rb') as model_file:
+        model = pickle.load(model_file)
+except FileNotFoundError:
+    print("Le fichier model.pkl n'a pas été trouvé.")
+except Exception as e:
+    print(f"Une erreur s'est produite : {e}")
+
 
 st.title("Phone Price Range Prediction")
 
