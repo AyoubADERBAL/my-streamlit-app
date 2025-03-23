@@ -27,8 +27,8 @@ except FileNotFoundError:
     print("Le fichier model.pkl n'a pas été trouvé.")
 except Exception as e:
     print(f"Une erreur s'est produite : {e}")
-if 'model' not in locals():
-    raise Exception("Le modèle n'a pas pu être chargé.")
+#if 'model' not in locals():
+   # raise Exception("Le modèle n'a pas pu être chargé.")
 
 
 st.title("Kanbghik akhadija ❤️")#Phone Price Range Prediction
