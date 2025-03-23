@@ -31,7 +31,7 @@ except Exception as e:
    # raise Exception("Le modèle n'a pas pu être chargé.")
 
 
-st.title("Kanbghik akhadija ❤️\ nti Ajmal insana fl3aalam")#Phone Price Range Prediction
+st.title("Phone Price Range Prediction")
 
 st.markdown(" This is a simple web application that predicts the price range of your mobile phone based on the phone's specifications.")
 st.markdown("The price ranges are given as follows: ")
