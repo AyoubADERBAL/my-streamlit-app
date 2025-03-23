@@ -31,7 +31,7 @@ if 'model' not in locals():
     raise Exception("Le modèle n'a pas pu être chargé.")
 
 
-st.title("Phone Price Range Prediction")
+st.title("Kanbghik akhadija ❤️")#Phone Price Range Prediction
 
 st.markdown(" This is a simple web application that predicts the price range of your mobile phone based on the phone's specifications.")
 st.markdown("The price ranges are given as follows: ")
